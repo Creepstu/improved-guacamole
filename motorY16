@@ -1,0 +1,700 @@
+local SDShax = Instance.new("ScreenGui")
+local UI = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local _2 = Instance.new("TextButton")
+local makeitlow = Instance.new("TextButton")
+local makeithigh = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local is = Instance.new("TextLabel")
+local answer = Instance.new("TextLabel")
+local _1 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local is_2 = Instance.new("TextLabel")
+local answer_2 = Instance.new("TextLabel")
+local makeitlow_2 = Instance.new("TextButton")
+local makeithigh_2 = Instance.new("TextButton")
+local _3 = Instance.new("TextButton")
+local makeitlow_3 = Instance.new("TextButton")
+local makeithigh_3 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local is_3 = Instance.new("TextLabel")
+local answer_3 = Instance.new("TextLabel")
+local _4 = Instance.new("TextButton")
+local makeitlow_4 = Instance.new("TextButton")
+local makeithigh_4 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local is_4 = Instance.new("TextLabel")
+local answer_4 = Instance.new("TextLabel")
+local uiicon = Instance.new("ImageButton")
+local byebye = Instance.new("TextLabel")
+local Makemegone = Instance.new("TextButton")
+local Forcereset = Instance.new("TextButton")
+
+SDShax.Name = "SDShax"
+SDShax.Parent = game.CoreGui
+SDShax.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+SDShax.ResetOnSpawn = false
+
+UI.Name = "UI"
+UI.Parent = SDShax
+UI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.BorderSizePixel = 0
+UI.Position = UDim2.new(0, 5, 0.5, 0)
+UI.Size = UDim2.new(0, 25, 0, 25)
+
+Frame.Parent = UI
+Frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Frame.Position = UDim2.new(0, 0, 1.5, 0)
+Frame.Size = UDim2.new(0, 100, 0, 100)
+
+_2.Name = "2"
+_2.Parent = Frame
+_2.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+_2.Position = UDim2.new(0.00999999978, 0, 0.27700001, 0)
+_2.Size = UDim2.new(0, 80, 0, 20)
+_2.Font = Enum.Font.Gotham
+_2.Text = "Jump Power"
+_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+_2.TextSize = 10.000
+_2.TextWrapped = true
+_2.TextXAlignment = Enum.TextXAlignment.Left
+
+makeitlow.Name = "makeitlow"
+makeitlow.Parent = _2
+makeitlow.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+makeitlow.BorderColor3 = Color3.fromRGB(0, 0, 0)
+makeitlow.Position = UDim2.new(1.53699994, 0, -0.400000006, 10)
+makeitlow.Size = UDim2.new(0, 15, 0, 15)
+makeitlow.Visible = false
+makeitlow.Font = Enum.Font.GothamBold
+makeitlow.Text = "–"
+makeitlow.TextColor3 = Color3.fromRGB(255, 255, 255)
+makeitlow.TextSize = 14.000
+
+makeithigh.Name = "makeithigh"
+makeithigh.Parent = _2
+makeithigh.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+makeithigh.BorderColor3 = Color3.fromRGB(0, 0, 0)
+makeithigh.Position = UDim2.new(1.29999995, 0, 0.349999994, -5)
+makeithigh.Size = UDim2.new(0, 15, 0, 15)
+makeithigh.Visible = false
+makeithigh.Font = Enum.Font.GothamBold
+makeithigh.Text = "+"
+makeithigh.TextColor3 = Color3.fromRGB(255, 255, 255)
+makeithigh.TextSize = 14.000
+
+UICorner.CornerRadius = UDim.new(0, 7)
+UICorner.Parent = _2
+
+is.Name = "is"
+is.Parent = _2
+is.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+is.BackgroundTransparency = 1.000
+is.Position = UDim2.new(1, 0, 0, 0)
+is.Size = UDim2.new(0, 5, 0, 20)
+is.Font = Enum.Font.ArialBold
+is.Text = ":"
+is.TextColor3 = Color3.fromRGB(255, 255, 255)
+is.TextSize = 14.000
+is.TextXAlignment = Enum.TextXAlignment.Left
+
+answer.Name = "answer"
+answer.Parent = is
+answer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+answer.BackgroundTransparency = 1.000
+answer.Position = UDim2.new(0.831578791, 0, 0, 0)
+answer.Size = UDim2.new(0, 14, 0, 20)
+answer.Font = Enum.Font.SourceSansBold
+answer.Text = "×"
+answer.TextColor3 = Color3.fromRGB(255, 0, 0)
+answer.TextScaled = true
+answer.TextSize = 14.000
+answer.TextWrapped = true
+
+_1.Name = "1"
+_1.Parent = Frame
+_1.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+_1.Position = UDim2.new(0.00999999978, 0, 0.0280000009, 0)
+_1.Size = UDim2.new(0, 80, 0, 20)
+_1.Font = Enum.Font.Gotham
+_1.Text = "Walk Speed"
+_1.TextColor3 = Color3.fromRGB(255, 255, 255)
+_1.TextSize = 12.000
+_1.TextWrapped = true
+_1.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_2.CornerRadius = UDim.new(0, 7)
+UICorner_2.Parent = _1
+
+is_2.Name = "is"
+is_2.Parent = _1
+is_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+is_2.BackgroundTransparency = 1.000
+is_2.Position = UDim2.new(1, 0, 0, 0)
+is_2.Size = UDim2.new(0, 5, 0, 20)
+is_2.Font = Enum.Font.ArialBold
+is_2.Text = ":"
+is_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+is_2.TextSize = 14.000
+is_2.TextXAlignment = Enum.TextXAlignment.Left
+
+answer_2.Name = "answer"
+answer_2.Parent = is_2
+answer_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+answer_2.BackgroundTransparency = 1.000
+answer_2.Position = UDim2.new(0.821052551, 0, 0, 0)
+answer_2.Size = UDim2.new(0, 14, 0, 20)
+answer_2.Font = Enum.Font.SourceSansBold
+answer_2.Text = "×"
+answer_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+answer_2.TextScaled = true
+answer_2.TextSize = 14.000
+answer_2.TextWrapped = true
+
+makeitlow_2.Name = "makeitlow"
+makeitlow_2.Parent = _1
+makeitlow_2.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+makeitlow_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+makeitlow_2.Position = UDim2.new(1.53699994, 0, -0.432999998, 10)
+makeitlow_2.Size = UDim2.new(0, 15, 0, 15)
+makeitlow_2.Visible = false
+makeitlow_2.Font = Enum.Font.GothamBold
+makeitlow_2.Text = "–"
+makeitlow_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+makeitlow_2.TextSize = 14.000
+
+makeithigh_2.Name = "makeithigh"
+makeithigh_2.Parent = _1
+makeithigh_2.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+makeithigh_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+makeithigh_2.Position = UDim2.new(1.29999995, 0, 0.349999994, -5)
+makeithigh_2.Size = UDim2.new(0, 15, 0, 15)
+makeithigh_2.Visible = false
+makeithigh_2.Font = Enum.Font.GothamBold
+makeithigh_2.Text = "+"
+makeithigh_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+makeithigh_2.TextSize = 14.000
+
+_3.Name = "3"
+_3.Parent = Frame
+_3.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+_3.Position = UDim2.new(0.00999999978, 0, 0.520000041, 0)
+_3.Size = UDim2.new(0, 80, 0, 20)
+_3.Font = Enum.Font.Gotham
+_3.Text = "Hip Height"
+_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+_3.TextSize = 12.000
+_3.TextWrapped = true
+_3.TextXAlignment = Enum.TextXAlignment.Left
+
+makeitlow_3.Name = "makeitlow"
+makeitlow_3.Parent = _3
+makeitlow_3.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+makeitlow_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+makeitlow_3.Position = UDim2.new(1.53699994, 0, -0.400000006, 10)
+makeitlow_3.Size = UDim2.new(0, 15, 0, 15)
+makeitlow_3.Visible = false
+makeitlow_3.Font = Enum.Font.GothamBold
+makeitlow_3.Text = "–"
+makeitlow_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+makeitlow_3.TextSize = 14.000
+
+makeithigh_3.Name = "makeithigh"
+makeithigh_3.Parent = _3
+makeithigh_3.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+makeithigh_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+makeithigh_3.Position = UDim2.new(1.29999995, 0, 0.349999994, -5)
+makeithigh_3.Size = UDim2.new(0, 15, 0, 15)
+makeithigh_3.Visible = false
+makeithigh_3.Font = Enum.Font.GothamBold
+makeithigh_3.Text = "+"
+makeithigh_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+makeithigh_3.TextSize = 14.000
+
+UICorner_3.CornerRadius = UDim.new(0, 7)
+UICorner_3.Parent = _3
+
+is_3.Name = "is"
+is_3.Parent = _3
+is_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+is_3.BackgroundTransparency = 1.000
+is_3.Position = UDim2.new(1, 0, 0, 0)
+is_3.Size = UDim2.new(0, 5, 0, 20)
+is_3.Font = Enum.Font.ArialBold
+is_3.Text = ":"
+is_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+is_3.TextSize = 14.000
+is_3.TextXAlignment = Enum.TextXAlignment.Left
+
+answer_3.Name = "answer"
+answer_3.Parent = is_3
+answer_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+answer_3.BackgroundTransparency = 1.000
+answer_3.Position = UDim2.new(0.831578791, 0, 0, 0)
+answer_3.Size = UDim2.new(0, 14, 0, 20)
+answer_3.Font = Enum.Font.SourceSansBold
+answer_3.Text = "×"
+answer_3.TextColor3 = Color3.fromRGB(255, 0, 0)
+answer_3.TextScaled = true
+answer_3.TextSize = 14.000
+answer_3.TextWrapped = true
+
+_4.Name = "4"
+_4.Parent = Frame
+_4.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+_4.Position = UDim2.new(0.00999999978, 0, 0.769999981, 0)
+_4.Size = UDim2.new(0, 80, 0, 20)
+_4.Font = Enum.Font.Gotham
+_4.Text = "Health"
+_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+_4.TextSize = 12.000
+_4.TextWrapped = true
+_4.TextXAlignment = Enum.TextXAlignment.Left
+
+makeitlow_4.Name = "makeitlow"
+makeitlow_4.Parent = _4
+makeitlow_4.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+makeitlow_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+makeitlow_4.Position = UDim2.new(1.53699994, 0, -0.400000006, 10)
+makeitlow_4.Size = UDim2.new(0, 15, 0, 15)
+makeitlow_4.Visible = false
+makeitlow_4.Font = Enum.Font.GothamBold
+makeitlow_4.Text = "–"
+makeitlow_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+makeitlow_4.TextSize = 14.000
+
+makeithigh_4.Name = "makeithigh"
+makeithigh_4.Parent = _4
+makeithigh_4.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+makeithigh_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+makeithigh_4.Position = UDim2.new(1.29999995, 0, 0.349999994, -5)
+makeithigh_4.Size = UDim2.new(0, 15, 0, 15)
+makeithigh_4.Visible = false
+makeithigh_4.Font = Enum.Font.GothamBold
+makeithigh_4.Text = "+"
+makeithigh_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+makeithigh_4.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(0, 7)
+UICorner_4.Parent = _4
+
+is_4.Name = "is"
+is_4.Parent = _4
+is_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+is_4.BackgroundTransparency = 1.000
+is_4.Position = UDim2.new(1, 0, 0, 0)
+is_4.Size = UDim2.new(0, 5, 0, 20)
+is_4.Font = Enum.Font.ArialBold
+is_4.Text = ":"
+is_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+is_4.TextSize = 14.000
+is_4.TextXAlignment = Enum.TextXAlignment.Left
+
+answer_4.Name = "answer"
+answer_4.Parent = is_4
+answer_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+answer_4.BackgroundTransparency = 1.000
+answer_4.Position = UDim2.new(0.831578791, 0, 0, 0)
+answer_4.Size = UDim2.new(0, 14, 0, 20)
+answer_4.Font = Enum.Font.SourceSansBold
+answer_4.Text = "×"
+answer_4.TextColor3 = Color3.fromRGB(255, 0, 0)
+answer_4.TextScaled = true
+answer_4.TextSize = 14.000
+answer_4.TextWrapped = true
+
+uiicon.Name = "uiicon"
+uiicon.Parent = UI
+uiicon.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+uiicon.BorderColor3 = Color3.fromRGB(170, 0, 70)
+uiicon.BorderSizePixel = 0
+uiicon.Size = UDim2.new(0, 25, 0, 25)
+uiicon.Image = "rbxassetid://11127231259"
+
+byebye.Name = "byebye"
+byebye.Parent = uiicon
+byebye.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+byebye.BackgroundTransparency = 0.700
+byebye.Position = UDim2.new(1.29999995, 0, 0.200000003, 0)
+byebye.Size = UDim2.new(0, 35, 0, 15)
+byebye.Visible = false
+byebye.Font = Enum.Font.Gotham
+byebye.Text = "Bye!!!"
+byebye.TextColor3 = Color3.fromRGB(255, 255, 255)
+byebye.TextSize = 14.000
+byebye.TextXAlignment = Enum.TextXAlignment.Left
+
+Makemegone.Name = "Makemegone"
+Makemegone.Parent = UI
+Makemegone.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Makemegone.BorderColor3 = Color3.fromRGB(30, 30, 30)
+Makemegone.BorderSizePixel = 2
+Makemegone.Position = UDim2.new(0, 0, -1.5, 0)
+Makemegone.Size = UDim2.new(0, 100, 0, 25)
+Makemegone.Font = Enum.Font.Gotham
+Makemegone.Text = "Destroy GUI"
+Makemegone.TextColor3 = Color3.fromRGB(255, 255, 255)
+Makemegone.TextSize = 14.000
+Makemegone.TextWrapped = true
+
+Forcereset.Name = "Forcereset"
+Forcereset.Parent = UI
+Forcereset.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Forcereset.BorderColor3 = Color3.fromRGB(30, 30, 30)
+Forcereset.BorderSizePixel = 2
+Forcereset.Position = UDim2.new(0, 0, -3, 0)
+Forcereset.Size = UDim2.new(0, 100, 0, 25)
+Forcereset.Font = Enum.Font.Gotham
+Forcereset.Text = "Force Reset"
+Forcereset.TextColor3 = Color3.fromRGB(255, 255, 255)
+Forcereset.TextSize = 14.000
+Forcereset.TextWrapped = true
+
+local function WDNGJ_fake_script()
+	local script = Instance.new('LocalScript', _2)
+
+	local button = script.Parent
+	local toggle = false
+	
+	local function onButtonClicked()
+		if toggle == false then
+			toggle = true
+			script.Parent.makeithigh.Visible = true
+			script.Parent.makeitlow.Visible = true
+			button.is.answer.Text = "✓"
+			button.is.answer.TextColor3 = Color3.fromRGB(0, 255, 0)
+		else
+			toggle = false
+			script.Parent.makeithigh.Visible = false
+			script.Parent.makeitlow.Visible = false
+			game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+			button.is.answer.Text = "×"
+			button.is.answer.TextColor3 = Color3.fromRGB(255, 0, 0)
+		end
+	end
+	
+	button.MouseButton1Click:Connect(onButtonClicked)
+end
+coroutine.wrap(WDNGJ_fake_script)()
+local function LZGJSR_fake_script()
+	local script = Instance.new('LocalScript', makeitlow)
+
+	local makeithigh = script.Parent
+	makeithigh.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower -= 1
+	end)
+end
+coroutine.wrap(LZGJSR_fake_script)()
+local function TQKZFA_fake_script() 
+	local script = Instance.new('LocalScript', makeithigh)
+
+	local makeithigh = script.Parent
+	makeithigh.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower += 1
+	end)
+end
+coroutine.wrap(TQKZFA_fake_script)()
+local function ZJEO_fake_script()
+	local script = Instance.new('LocalScript', _2)
+
+	local button = script.Parent
+	local originalTextSize = button.TextSize
+	
+	button.MouseEnter:Connect(function()
+		button.TextSize = originalTextSize + 3
+	end)
+	
+	button.MouseLeave:Connect(function()
+		button.TextSize = originalTextSize
+	end)
+end
+coroutine.wrap(ZJEO_fake_script)()
+local function PFORB_fake_script()
+	local script = Instance.new('LocalScript', _1)
+
+	local button = script.Parent
+	local toggle = false
+	
+	local function onButtonClicked()
+		if toggle == false then
+			toggle = true
+			script.Parent.makeithigh.Visible = true
+			script.Parent.makeitlow.Visible = true
+			button.is.answer.Text = "✓"
+			button.is.answer.TextColor3 = Color3.fromRGB(0, 255, 0)
+		else
+			toggle = false
+			script.Parent.makeithigh.Visible = false
+			script.Parent.makeitlow.Visible = false
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+			button.is.answer.Text = "×"
+			button.is.answer.TextColor3 = Color3.fromRGB(255, 0, 0)
+		end
+	end
+	
+	button.MouseButton1Click:Connect(onButtonClicked)
+end
+coroutine.wrap(PFORB_fake_script)()
+local function HREK_fake_script()
+	local script = Instance.new('LocalScript', _1)
+
+	local button = script.Parent
+	local originalTextSize = button.TextSize
+	
+	button.MouseEnter:Connect(function()
+		button.TextSize = originalTextSize + 2
+	end)
+	
+	button.MouseLeave:Connect(function()
+		button.TextSize = originalTextSize
+	end)
+end
+coroutine.wrap(HREK_fake_script)()
+local function VRIJZQB_fake_script()
+	local script = Instance.new('LocalScript', makeitlow_2)
+
+	local makeithigh = script.Parent
+	makeithigh.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed -= 1
+	end)
+end
+coroutine.wrap(VRIJZQB_fake_script)()
+local function XZRFFWC_fake_script()
+	local script = Instance.new('LocalScript', makeithigh_2)
+
+	local makeithigh = script.Parent
+	makeithigh.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed += 1
+	end)
+end
+coroutine.wrap(XZRFFWC_fake_script)()
+local function CQSCYE_fake_script() 
+	local script = Instance.new('LocalScript', _3)
+
+	local button = script.Parent
+	local toggle = false
+	
+	local function onButtonClicked()
+		if toggle == false then
+			toggle = true
+			script.Parent.makeithigh.Visible = true
+			script.Parent.makeitlow.Visible = true
+			button.is.answer.Text = "✓"
+			button.is.answer.TextColor3 = Color3.fromRGB(0, 255, 0)
+		else
+			toggle = false
+			script.Parent.makeithigh.Visible = false
+			script.Parent.makeitlow.Visible = false
+			game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+			button.is.answer.Text = "×"
+			button.is.answer.TextColor3 = Color3.fromRGB(255, 0, 0)
+		end
+	end
+	
+	button.MouseButton1Click:Connect(onButtonClicked)
+end
+coroutine.wrap(CQSCYE_fake_script)()
+local function WHARYNO_fake_script()
+	local script = Instance.new('LocalScript', makeitlow_3)
+
+	local makeithigh = script.Parent
+	makeithigh.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.HipHeight -= 1
+	end)
+end
+coroutine.wrap(WHARYNO_fake_script)()
+local function XTQLB_fake_script()
+	local script = Instance.new('LocalScript', makeithigh_3)
+
+	local makeithigh = script.Parent
+	makeithigh.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.HipHeight += 1
+	end)
+end
+coroutine.wrap(XTQLB_fake_script)()
+local function MZIPKM_fake_script()
+	local script = Instance.new('LocalScript', _3)
+
+	local button = script.Parent
+	local originalTextSize = button.TextSize
+	
+	button.MouseEnter:Connect(function()
+		button.TextSize = originalTextSize + 2
+	end)
+	
+	button.MouseLeave:Connect(function()
+		button.TextSize = originalTextSize
+	end)
+end
+coroutine.wrap(MZIPKM_fake_script)()
+local function WXMD_fake_script()
+	local script = Instance.new('LocalScript', _4)
+
+	local button = script.Parent
+	local toggle = false
+	
+	local function onButtonClicked()
+		if toggle == false then
+			toggle = true
+			script.Parent.makeithigh.Visible = true
+			script.Parent.makeitlow.Visible = true
+			button.is.answer.Text = "✓"
+			button.is.answer.TextColor3 = Color3.fromRGB(0, 255, 0)
+		else
+			toggle = false
+			script.Parent.makeithigh.Visible = false
+			script.Parent.makeitlow.Visible = false
+			game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+			button.is.answer.Text = "×"
+			button.is.answer.TextColor3 = Color3.fromRGB(255, 0, 0)
+		end
+	end
+	
+	button.MouseButton1Click:Connect(onButtonClicked)
+end
+coroutine.wrap(WXMD_fake_script)()
+local function RAZBWB_fake_script()
+	local script = Instance.new('LocalScript', makeitlow_4)
+
+	local makeithigh = script.Parent
+	makeithigh.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.Health -= 1
+	end)
+end
+coroutine.wrap(RAZBWB_fake_script)()
+local function UQUXSMB_fake_script()
+	local script = Instance.new('LocalScript', makeithigh_4)
+
+	local makeithigh = script.Parent
+	makeithigh.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.Health += 1
+	end)
+end
+coroutine.wrap(UQUXSMB_fake_script)()
+local function VOHTYU_fake_script()
+	local script = Instance.new('LocalScript', _4)
+
+	local button = script.Parent
+	local originalTextSize = button.TextSize
+	
+	button.MouseEnter:Connect(function()
+		button.TextSize = originalTextSize + 2
+	end)
+	
+	button.MouseLeave:Connect(function()
+		button.TextSize = originalTextSize
+	end)
+end
+coroutine.wrap(VOHTYU_fake_script)()
+local function MMBY_fake_script()
+	local script = Instance.new('LocalScript', UI)
+	
+	local button = script.Parent.uiicon
+	local toggle = true
+	
+	local function onButtonClicked()
+		if toggle == true then
+			toggle = false
+			script.Parent.Frame.Visible = false
+			script.Parent.Makemegone.Visible = false
+			script.Parent.Forcereset.Visible = false
+		else
+			toggle = true
+			script.Parent.Frame.Visible = true
+			script.Parent.Makemegone.Visible = true
+			script.Parent.Forcereset.Visible = true
+		end
+	end
+	
+	button.MouseButton1Click:Connect(onButtonClicked)
+	
+end
+coroutine.wrap(MMBY_fake_script)()
+local function JAMI_fake_script()
+	local script = Instance.new('LocalScript', uiicon)
+
+	local button = script.Parent
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),
+		Color3.fromRGB(255, 165, 0),
+		Color3.fromRGB(255, 255, 0),
+		Color3.fromRGB(0, 255, 0),
+		Color3.fromRGB(0, 0, 255),
+		Color3.fromRGB(75, 0, 130),
+		Color3.fromRGB(238, 130, 238),
+		Color3.fromRGB(65, 65, 65)
+	}
+	
+	while true do
+		for i, color in ipairs(rainbowColors) do
+			local tweenInfo = TweenInfo.new(0.5)
+			local tween = game:GetService("TweenService"):Create(button, tweenInfo, {
+				BackgroundColor3 = color
+			})
+			tween:Play()
+			tween.Completed:Wait()
+		end
+	end
+	
+end
+coroutine.wrap(JAMI_fake_script)()
+local function MPMEP_fake_script()
+	local script = Instance.new('LocalScript', Makemegone)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Visible = false
+		wait()
+		script.Parent.Parent.Frame:Destroy()
+		wait()
+		script.Parent.Parent.LocalScript:Destroy()
+		wait()
+		script.Parent.Parent.uiicon.byebye.Visible = true
+		script.Parent.Parent.uiicon.byebye.Text = "Bye!!!"
+		wait(2)
+		script.Parent.Parent.uiicon.byebye.BackgroundTransparency = 1
+		script.Parent.Parent.uiicon.byebye.Text = "(Destroying...)"
+		wait(math.random() * 5)
+		script.Parent.Parent.uiicon:Destroy()
+		script.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(MPMEP_fake_script)()
+local function BDBOA_fake_script()
+	local script = Instance.new('LocalScript', Makemegone)
+
+	local button = script.Parent
+	local originalTextSize = button.TextSize
+	
+	button.MouseEnter:Connect(function()
+		button.TextSize = originalTextSize + 2
+	end)
+	
+	button.MouseLeave:Connect(function()
+		button.TextSize = originalTextSize
+	end)
+end
+coroutine.wrap(BDBOA_fake_script)()
+local function LGSHQT_fake_script()
+	local script = Instance.new('LocalScript', Forcereset)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+	end)
+end
+coroutine.wrap(LGSHQT_fake_script)()
+local function YVJW_fake_script()
+	local script = Instance.new('LocalScript', Forcereset)
+
+	local button = script.Parent
+	local originalTextSize = button.TextSize
+	
+	button.MouseEnter:Connect(function()
+		button.TextSize = originalTextSize + 2
+	end)
+	
+	button.MouseLeave:Connect(function()
+		button.TextSize = originalTextSize
+	end)
+end
+coroutine.wrap(YVJW_fake_script)()
