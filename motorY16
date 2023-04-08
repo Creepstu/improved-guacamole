@@ -350,7 +350,9 @@ Forcereset.TextColor3 = Color3.fromRGB(255, 255, 255)
 Forcereset.TextSize = 14.000
 Forcereset.TextWrapped = true
 
-local function WDNGJ_fake_script()
+-- Scripts:
+
+local function IDJRRI_fake_script() -- _2.LocalScript 
 	local script = Instance.new('LocalScript', _2)
 
 	local button = script.Parent
@@ -375,8 +377,8 @@ local function WDNGJ_fake_script()
 	
 	button.MouseButton1Click:Connect(onButtonClicked)
 end
-coroutine.wrap(WDNGJ_fake_script)()
-local function LZGJSR_fake_script()
+coroutine.wrap(IDJRRI_fake_script)()
+local function DPQZ_fake_script() -- makeitlow.LocalScript 
 	local script = Instance.new('LocalScript', makeitlow)
 
 	local makeithigh = script.Parent
@@ -384,8 +386,8 @@ local function LZGJSR_fake_script()
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower -= 1
 	end)
 end
-coroutine.wrap(LZGJSR_fake_script)()
-local function TQKZFA_fake_script() 
+coroutine.wrap(DPQZ_fake_script)()
+local function QCUA_fake_script() -- makeithigh.LocalScript 
 	local script = Instance.new('LocalScript', makeithigh)
 
 	local makeithigh = script.Parent
@@ -393,8 +395,8 @@ local function TQKZFA_fake_script()
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower += 1
 	end)
 end
-coroutine.wrap(TQKZFA_fake_script)()
-local function ZJEO_fake_script()
+coroutine.wrap(QCUA_fake_script)()
+local function MJRWFJK_fake_script() -- _2.hover 
 	local script = Instance.new('LocalScript', _2)
 
 	local button = script.Parent
@@ -408,8 +410,8 @@ local function ZJEO_fake_script()
 		button.TextSize = originalTextSize
 	end)
 end
-coroutine.wrap(ZJEO_fake_script)()
-local function PFORB_fake_script()
+coroutine.wrap(MJRWFJK_fake_script)()
+local function SWNZWG_fake_script() -- _1.LocalScript 
 	local script = Instance.new('LocalScript', _1)
 
 	local button = script.Parent
@@ -434,8 +436,8 @@ local function PFORB_fake_script()
 	
 	button.MouseButton1Click:Connect(onButtonClicked)
 end
-coroutine.wrap(PFORB_fake_script)()
-local function HREK_fake_script()
+coroutine.wrap(SWNZWG_fake_script)()
+local function LIDXII_fake_script() -- _1.hover 
 	local script = Instance.new('LocalScript', _1)
 
 	local button = script.Parent
@@ -449,8 +451,8 @@ local function HREK_fake_script()
 		button.TextSize = originalTextSize
 	end)
 end
-coroutine.wrap(HREK_fake_script)()
-local function VRIJZQB_fake_script()
+coroutine.wrap(LIDXII_fake_script)()
+local function ELZI_fake_script() -- makeitlow_2.LocalScript 
 	local script = Instance.new('LocalScript', makeitlow_2)
 
 	local makeithigh = script.Parent
@@ -458,8 +460,8 @@ local function VRIJZQB_fake_script()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed -= 1
 	end)
 end
-coroutine.wrap(VRIJZQB_fake_script)()
-local function XZRFFWC_fake_script()
+coroutine.wrap(ELZI_fake_script)()
+local function MSUUVA_fake_script() -- makeithigh_2.LocalScript 
 	local script = Instance.new('LocalScript', makeithigh_2)
 
 	local makeithigh = script.Parent
@@ -467,8 +469,8 @@ local function XZRFFWC_fake_script()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed += 1
 	end)
 end
-coroutine.wrap(XZRFFWC_fake_script)()
-local function CQSCYE_fake_script() 
+coroutine.wrap(MSUUVA_fake_script)()
+local function RXYS_fake_script() -- _3.LocalScript 
 	local script = Instance.new('LocalScript', _3)
 
 	local button = script.Parent
@@ -493,8 +495,8 @@ local function CQSCYE_fake_script()
 	
 	button.MouseButton1Click:Connect(onButtonClicked)
 end
-coroutine.wrap(CQSCYE_fake_script)()
-local function WHARYNO_fake_script()
+coroutine.wrap(RXYS_fake_script)()
+local function GBGPJBH_fake_script() -- makeitlow_3.LocalScript 
 	local script = Instance.new('LocalScript', makeitlow_3)
 
 	local makeithigh = script.Parent
@@ -502,8 +504,8 @@ local function WHARYNO_fake_script()
 		game.Players.LocalPlayer.Character.Humanoid.HipHeight -= 1
 	end)
 end
-coroutine.wrap(WHARYNO_fake_script)()
-local function XTQLB_fake_script()
+coroutine.wrap(GBGPJBH_fake_script)()
+local function RWOXHM_fake_script() -- makeithigh_3.LocalScript 
 	local script = Instance.new('LocalScript', makeithigh_3)
 
 	local makeithigh = script.Parent
@@ -511,8 +513,8 @@ local function XTQLB_fake_script()
 		game.Players.LocalPlayer.Character.Humanoid.HipHeight += 1
 	end)
 end
-coroutine.wrap(XTQLB_fake_script)()
-local function MZIPKM_fake_script()
+coroutine.wrap(RWOXHM_fake_script)()
+local function XHCMCDD_fake_script() -- _3.hover 
 	local script = Instance.new('LocalScript', _3)
 
 	local button = script.Parent
@@ -526,8 +528,8 @@ local function MZIPKM_fake_script()
 		button.TextSize = originalTextSize
 	end)
 end
-coroutine.wrap(MZIPKM_fake_script)()
-local function WXMD_fake_script()
+coroutine.wrap(XHCMCDD_fake_script)()
+local function FZON_fake_script() -- _4.LocalScript 
 	local script = Instance.new('LocalScript', _4)
 
 	local button = script.Parent
@@ -552,8 +554,8 @@ local function WXMD_fake_script()
 	
 	button.MouseButton1Click:Connect(onButtonClicked)
 end
-coroutine.wrap(WXMD_fake_script)()
-local function RAZBWB_fake_script()
+coroutine.wrap(FZON_fake_script)()
+local function JZCZ_fake_script() -- makeitlow_4.LocalScript 
 	local script = Instance.new('LocalScript', makeitlow_4)
 
 	local makeithigh = script.Parent
@@ -561,8 +563,8 @@ local function RAZBWB_fake_script()
 		game.Players.LocalPlayer.Character.Humanoid.Health -= 1
 	end)
 end
-coroutine.wrap(RAZBWB_fake_script)()
-local function UQUXSMB_fake_script()
+coroutine.wrap(JZCZ_fake_script)()
+local function OUDJUUS_fake_script() -- makeithigh_4.LocalScript 
 	local script = Instance.new('LocalScript', makeithigh_4)
 
 	local makeithigh = script.Parent
@@ -570,8 +572,8 @@ local function UQUXSMB_fake_script()
 		game.Players.LocalPlayer.Character.Humanoid.Health += 1
 	end)
 end
-coroutine.wrap(UQUXSMB_fake_script)()
-local function VOHTYU_fake_script()
+coroutine.wrap(OUDJUUS_fake_script)()
+local function VKJFM_fake_script() -- _4.hover 
 	local script = Instance.new('LocalScript', _4)
 
 	local button = script.Parent
@@ -585,13 +587,15 @@ local function VOHTYU_fake_script()
 		button.TextSize = originalTextSize
 	end)
 end
-coroutine.wrap(VOHTYU_fake_script)()
-local function MMBY_fake_script()
+coroutine.wrap(VKJFM_fake_script)()
+local function EXPJD_fake_script() -- UI.LocalScript 
 	local script = Instance.new('LocalScript', UI)
-	
+
+	-- Replace "Button" with the name of your button
 	local button = script.Parent.uiicon
 	local toggle = true
 	
+	-- Function to execute when the button is clicked
 	local function onButtonClicked()
 		if toggle == true then
 			toggle = false
@@ -606,29 +610,30 @@ local function MMBY_fake_script()
 		end
 	end
 	
+	-- Connect the button to the function
 	button.MouseButton1Click:Connect(onButtonClicked)
 	
 end
-coroutine.wrap(MMBY_fake_script)()
-local function JAMI_fake_script()
+coroutine.wrap(EXPJD_fake_script)()
+local function RKZINJ_fake_script() -- uiicon.LocalScript 
 	local script = Instance.new('LocalScript', uiicon)
 
-	local button = script.Parent
+	local button = script.Parent -- Replace "script.Parent" with a reference to your ImageButton object
 	
 	local rainbowColors = {
-		Color3.fromRGB(255, 0, 0),
-		Color3.fromRGB(255, 165, 0),
-		Color3.fromRGB(255, 255, 0),
-		Color3.fromRGB(0, 255, 0),
-		Color3.fromRGB(0, 0, 255),
-		Color3.fromRGB(75, 0, 130),
-		Color3.fromRGB(238, 130, 238),
-		Color3.fromRGB(65, 65, 65)
+		Color3.fromRGB(255, 0, 0), -- Red
+		Color3.fromRGB(255, 165, 0), -- Orange
+		Color3.fromRGB(255, 255, 0), -- Yellow
+		Color3.fromRGB(0, 255, 0), -- Green
+		Color3.fromRGB(0, 0, 255), -- Blue
+		Color3.fromRGB(75, 0, 130), -- Indigo
+		Color3.fromRGB(238, 130, 238), -- Violet
+		Color3.fromRGB(65, 65, 65) -- Gray
 	}
 	
 	while true do
 		for i, color in ipairs(rainbowColors) do
-			local tweenInfo = TweenInfo.new(0.5)
+			local tweenInfo = TweenInfo.new(0.5) -- Change the duration of the tween as desired
 			local tween = game:GetService("TweenService"):Create(button, tweenInfo, {
 				BackgroundColor3 = color
 			})
@@ -638,14 +643,16 @@ local function JAMI_fake_script()
 	end
 	
 end
-coroutine.wrap(JAMI_fake_script)()
-local function MPMEP_fake_script()
+coroutine.wrap(RKZINJ_fake_script)()
+local function XNXBRK_fake_script() -- Makemegone.LocalScript 
 	local script = Instance.new('LocalScript', Makemegone)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Visible = false
 		wait()
 		script.Parent.Parent.Frame:Destroy()
+		wait()
+		script.Parent.Parent.Forcereset:Destroy()
 		wait()
 		script.Parent.Parent.LocalScript:Destroy()
 		wait()
@@ -659,8 +666,8 @@ local function MPMEP_fake_script()
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(MPMEP_fake_script)()
-local function BDBOA_fake_script()
+coroutine.wrap(XNXBRK_fake_script)()
+local function OOFKASI_fake_script() -- Makemegone.hover 
 	local script = Instance.new('LocalScript', Makemegone)
 
 	local button = script.Parent
@@ -674,16 +681,16 @@ local function BDBOA_fake_script()
 		button.TextSize = originalTextSize
 	end)
 end
-coroutine.wrap(BDBOA_fake_script)()
-local function LGSHQT_fake_script()
+coroutine.wrap(OOFKASI_fake_script)()
+local function UBCAHPK_fake_script() -- Forcereset.LocalScript 
 	local script = Instance.new('LocalScript', Forcereset)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.Health = 0
 	end)
 end
-coroutine.wrap(LGSHQT_fake_script)()
-local function YVJW_fake_script()
+coroutine.wrap(UBCAHPK_fake_script)()
+local function OBIP_fake_script() -- Forcereset.hover 
 	local script = Instance.new('LocalScript', Forcereset)
 
 	local button = script.Parent
@@ -697,4 +704,4 @@ local function YVJW_fake_script()
 		button.TextSize = originalTextSize
 	end)
 end
-coroutine.wrap(YVJW_fake_script)()
+coroutine.wrap(OBIP_fake_script)()
